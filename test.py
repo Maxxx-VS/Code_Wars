@@ -1,17 +1,19 @@
-def flick_switch(lst):
-    flag = True
-    arry = []
-    for i in lst:
-        if i != 'flick':
-            arry.append(flag)
-        else:
-            if flag == True:
-                flag = False
-                arry.append(flag)
-            else:
-                flag = True
-                arry.append(flag)
+arry = [5,1,2,3,4]
+swap = True
+c = 0
 
-    print(arry)
 
-flick_switch(['codewars', 'flick', 'code', 'wars'])
+while swap:
+    swap = False
+    for i in range (len(arry) -1 ):
+        if arry[i] > arry[i + 1]:
+            arry[i], arry[i + 1] = arry[i + 1], arry[i]
+            swap = True
+print(arry)
+print(arry_set)
+
+for i in range (len(arry_set)):
+    if arry[i] != arry_set[i]:
+        c += 1
+print (c)
+
