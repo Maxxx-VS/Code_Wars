@@ -1,4 +1,4 @@
-arry = [5,1,2,3,4]
+arry = ['3', '9', 'A', '5', 'T', '8', '2', '4', 'Q', '7', 'J', '6', 'K']
 swap = True
 c = 0
 
@@ -10,10 +10,8 @@ while swap:
             arry[i], arry[i + 1] = arry[i + 1], arry[i]
             swap = True
 print(arry)
-print(arry_set)
 
-for i in range (len(arry_set)):
-    if arry[i] != arry_set[i]:
-        c += 1
-print (c)
+
+
+
 
