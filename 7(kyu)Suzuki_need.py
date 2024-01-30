@@ -2,8 +2,9 @@
 def lineup_students(st):
     #print(st)
     st_split = st.split()
-    #print(st_split)
-    s = sorted(st_split, key=len, reverse=True)
+    revers_st_split = st_split[::-1]
+    #print(revers_st_split)
+    s = sorted(revers_st_split, key=len, reverse=True)
     #print(s)
     return s
 
