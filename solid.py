@@ -81,3 +81,7 @@ class UserServis:
     def get_user(self, user_id):
         connection = self.database_connector.connect()
         # получение пользователя из БД
+
+
+aa = lambda x: x*2
+print(aa(5))
