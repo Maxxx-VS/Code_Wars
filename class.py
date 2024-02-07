@@ -1,6 +1,4 @@
 import json
-
-
 class User:
     def __init__(self, name_user, email_user, password_user):
         self.name_user = name_user
