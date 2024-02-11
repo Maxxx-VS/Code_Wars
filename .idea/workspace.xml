@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e8747af2-04e0-428b-89bc-1de2f0f7b0a4" name="Changes" comment="Не меняет пароль">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/pythonProject_Code_Wars.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class.py" beforeDir="false" afterPath="$PROJECT_DIR$/class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_file.json" beforeDir="false" afterPath="$PROJECT_DIR$/data_file.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2avyhuQsWh0MuYz5dOsofmjaokd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.1122.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6(kyu)Odd.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6(kyu)Sort_the_odd.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7(kyu)Pluc_minys.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7(kyu)Substring_fun.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7(kyu)Suzuki_need.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7_kyu_sting.executor&quot;: &quot;Run&quot;,
+    &quot;Python.8(kyu)Monkey.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cards_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.class.executor&quot;: &quot;Run&quot;,
+    &quot;Python.code_wars.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hash-1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hash.executor&quot;: &quot;Run&quot;,
+    &quot;Python.number_sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python.solid.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test3.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-67fca87a943a-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.11799.259" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8747af2-04e0-428b-89bc-1de2f0f7b0a4" name="Changes" comment="" />
+      <created>1705213470436</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705213470436</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Задача на 6 kyu">
+      <option name="closed" value="true" />
+      <created>1705229102145</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705229102145</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Задача на 8, 6 kyu">
+      <option name="closed" value="true" />
+      <created>1705336147107</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705336147107</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Задача на 6 kyu">
+      <option name="closed" value="true" />
+      <created>1705420321113</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705420321114</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Домашка">
+      <option name="closed" value="true" />
+      <created>1705811945302</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705811945302</updated>
+    </task>
+    <task id="LOCAL-00005" summary="7 и 6 kuy">
+      <option name="closed" value="true" />
+      <created>1706025771673</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706025771673</updated>
+    </task>
+    <task id="LOCAL-00006" summary="7 и 6 kuy">
+      <option name="closed" value="true" />
+      <created>1706418477226</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706418477226</updated>
+    </task>
+    <task id="LOCAL-00007" summary="7 и 6 kuy + HASH">
+      <option name="closed" value="true" />
+      <created>1706625662956</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706625662956</updated>
+    </task>
+    <task id="LOCAL-00008" summary="SOLID">
+      <option name="closed" value="true" />
+      <created>1707232400044</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1707232400044</updated>
+    </task>
+    <task id="LOCAL-00009" summary="HW">
+      <option name="closed" value="true" />
+      <created>1707234853270</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1707234853270</updated>
+    </task>
+    <task id="LOCAL-00010" summary="HW">
+      <option name="closed" value="true" />
+      <created>1707323687817</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1707323687817</updated>
+    </task>
+    <task id="LOCAL-00011" summary="HW">
+      <option name="closed" value="true" />
+      <created>1707323740135</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1707323740135</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Решил вопрос с видимостью data">
+      <option name="closed" value="true" />
+      <created>1707578231193</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1707578231193</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Не меняет пароль">
+      <option name="closed" value="true" />
+      <created>1707668317826</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1707668317826</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Задача на 8, 6 kyu" />
+    <MESSAGE value="Задача на 6 kyu" />
+    <MESSAGE value="Домашка" />
+    <MESSAGE value="7 и 6 kuy" />
+    <MESSAGE value="7 и 6 kuy + HASH" />
+    <MESSAGE value="SOLID" />
+    <MESSAGE value="HW" />
+    <MESSAGE value="Решил вопрос с видимостью data" />
+    <MESSAGE value="Не меняет пароль" />
+    <option name="LAST_COMMIT_MESSAGE" value="Не меняет пароль" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/7(kyu)Pluc_minys.py</url>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
