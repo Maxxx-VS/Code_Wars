@@ -1,95 +1,45 @@
 import json
 
-class User:
-    def __init__(self, name_user, email_user, password_user):
-        self.name_user = name_user
-        self.email_user = email_user
-        self.password_user = password_user
-    def add_json(self):
-        global data
-        print(f"ДЛЯ ДАЛЬНЕЙШЕЙ РАБОТЫ" , "\n"
-              f"ТРЕБУЕТСЯ РЕГИСТРАЦИЯ", "\n")
-        self.name_user = input("Введите своё имя: ")
-        self.email_user = input("Введите свою почту: ")
-        self.password_user = input("Создайте пароль : ")
-        data = [{'name': self.name_user, 'email': self.email_user, 'password': self.password_user}]
-        with open('data_file.json', 'a+', encoding='utf-8') as file:
+def add_user():
+    username = input("Введите логин пользователя: ")
+    password = input("Введите пароль пользователя: ")
+
+
+    with open('users.json', 'r') as file:
+        data = json.load(file)
+
+    data[username] = password
+
+    with open('users.json', 'w') as file:
+        json.dump(data, file)
+
+    print("Пользователь успешно добавлен!")
+
+def change_password():
+    username = input("Введите логин пользователя, пароль которого вы хотите изменить: ")
+    new_password = input("Введите новый пароль: ")
+
+    with open('users.json', 'r') as file:
+        data = json.load(file)
+
+    if username in data:
+        data[username] = new_password
+
+        with open('users.json', 'w') as file:
             json.dump(data, file)
-            file.write("\n")
-        print("ВЫ ЗАРЕГИСТРИРОВАЛИСЬ!", "\n")
-        question_change = input(f"Хотите сменить пароль??? (да/нет): ")
-        print("\n")
-        if question_change == "да" or question_change == "yes" or question_change == "y" or question_change == "+":
-            Change().change_password(self.name_user, self.email_user, self.password_user)
-        else:
-            Authentication().authentication_user(self.name_user, self.password_user)
 
+        print("Пароль успешно изменен!")
+    else:
+        print("Пользователь не найден!")
 
-class Change:
-    def change_password(self, name_user, email_user, password_user):
-        self.name_user = name_user
-        self.email_user = email_user
-        self.password_user = password_user
-        print(f'Ваш текущий пароль: {self.password_user}')
-        change_password = input("Введите новый пароль: ")
+while True:
+    choice = input("Выберите действие (1 - добавить пользователя, 2 - изменить пароль, 0 - выход): ")
 
-        data = [{'name': self.name_user, 'email': self.email_user, 'password': change_password}]
-        print(data[0])
-        with open('data_file.json', 'r+', encoding='utf-8') as file:
-            json.dump(data, file)
-            file.write("\n")
-
-
-# a - добавляет нового пользоателя с новым паролем
-# a+ - добавляет нового пользоателя с новым паролем
-# w - перезаписывет весь файл
-# w+ - перезаписывет весь файл
-# r - выдет ошибку при смене пароля
-# r+ - добавляет нового пользоателя с новым паролем
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-class Authentication:
-    def authentication_user(self, name_user, password_user):
-        self.name_user = name_user
-        self.password_user = password_user
-        print(f"ДОБРО ПОЖАЛОВАТЬ, {self.name_user}! ДЛЯ ДАЛЬНЕЙШЕЙ РАБОТЫ"
-              f"ПРОДТВЕРДИ СВОИ ДАННЫЕ: ")
-        auth_name = input("ВВЕДИ ИМЯ: ")
-        auth_password = input("ВВЕДИ ПАРОЛЬ: ")
-        if auth_name == data['name'] and auth_password == ['password']:
-            print("yes")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-User("name_user", 'email_user', "password_use").add_json()
-
-
+    if choice == "1":
+        add_user()
+    elif choice == "2":
+        change_password()
+    elif choice == "0":
+        break
+    else:
+        print("Некорректный выбор. Попробуйте снова.")

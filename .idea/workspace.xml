@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8747af2-04e0-428b-89bc-1de2f0f7b0a4" name="Changes" comment="Не меняет пароль">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pythonProject_Code_Wars.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/class.py" beforeDir="false" afterPath="$PROJECT_DIR$/class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_file.json" beforeDir="false" afterPath="$PROJECT_DIR$/data_file.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_file.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,33 +37,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.1122.executor&quot;: &quot;Run&quot;,
-    &quot;Python.6(kyu)Odd.executor&quot;: &quot;Run&quot;,
-    &quot;Python.6(kyu)Sort_the_odd.executor&quot;: &quot;Run&quot;,
-    &quot;Python.7(kyu)Pluc_minys.executor&quot;: &quot;Run&quot;,
-    &quot;Python.7(kyu)Substring_fun.executor&quot;: &quot;Run&quot;,
-    &quot;Python.7(kyu)Suzuki_need.executor&quot;: &quot;Run&quot;,
-    &quot;Python.7_kyu_sting.executor&quot;: &quot;Run&quot;,
-    &quot;Python.8(kyu)Monkey.executor&quot;: &quot;Run&quot;,
-    &quot;Python.cards_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python.class.executor&quot;: &quot;Run&quot;,
-    &quot;Python.code_wars.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hash-1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hash.executor&quot;: &quot;Run&quot;,
-    &quot;Python.number_sort.executor&quot;: &quot;Run&quot;,
-    &quot;Python.solid.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sort.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test3.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.1122.executor": "Run",
+    "Python.6(kyu)Odd.executor": "Run",
+    "Python.6(kyu)Sort_the_odd.executor": "Run",
+    "Python.7(kyu)Pluc_minys.executor": "Run",
+    "Python.7(kyu)Substring_fun.executor": "Run",
+    "Python.7(kyu)Suzuki_need.executor": "Run",
+    "Python.7_kyu_sting.executor": "Run",
+    "Python.8(kyu)Monkey.executor": "Run",
+    "Python.auth.executor": "Run",
+    "Python.cards_list.executor": "Run",
+    "Python.class.executor": "Run",
+    "Python.code_wars.executor": "Run",
+    "Python.hash-1.executor": "Run",
+    "Python.hash.executor": "Run",
+    "Python.number_sort.executor": "Run",
+    "Python.solid.executor": "Run",
+    "Python.sort.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.test2.executor": "Run",
+    "Python.test3.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -187,7 +185,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707668317826</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Не меняет пароль">
+      <option name="closed" value="true" />
+      <created>1707671509722</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1707671509723</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Не меняет пароль">
+      <option name="closed" value="true" />
+      <created>1707671528573</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1707671528573</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
